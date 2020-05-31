@@ -28,30 +28,6 @@ const Track = ({ track }) => {
         </div>
       </div>
     </div>
-
-    // <div className="col-md-6">
-    //   <div>
-    //     <h5>{track.title}</h5>
-    //   </div>
-    //   <div>
-    //     <span>
-    //       <i className="fas fa-play" /> Artist:{' '}
-    //     </span>
-    //     {track.artist.name}
-    //   </div>
-    //   <div>
-    //     <span>
-    //       <i className="fas fa-compact-disc" /> Album:{' '}
-    //     </span>
-    //     {track.album.title}
-    //   </div>
-    //   <Link
-    //     to={`lyrics/track/${track.artist.name}/${track.title}`}
-    //     className="btn btn-light btn-block"
-    //   >
-    //     <i className="fas fa-chevron-right" /> View Lyrics
-    //   </Link>
-    // </div>
   );
 };
 
